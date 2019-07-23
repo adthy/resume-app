@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-10 w-full mb-2">
-    <div class="flex mt-6 mb-2 w-full">
+  <div class="mx-10 w-full mb-12 sm:mb-2">
+    <div class="flex mt-6 sm:mb-2 w-full">
       <span class="text-red-highlight text-sm tracking-widest uppercase">
         Highlights
       </span>

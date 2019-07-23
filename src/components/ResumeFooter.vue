@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full flex flex-row border-gray-400 justify-around">
-    <div v-for="(item, index) in contact" :key="index" class="ml-0">
+  <div class="w-full flex flex-col sm:flex-row border-t-2 border-gray-400 justify-around">
+    <div v-for="(item, index) in contact" :key="index" class="ml-10 sm:ml-0">
       <div class="flex mt-2 w-full">
         <span class="text-sm tracking-widest">
           {{ item.type }}

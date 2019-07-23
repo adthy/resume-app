@@ -1,11 +1,11 @@
 <template>
-  <div class="order-first w-7/12">
-    <div class="flex mt-6 mb-2">
+  <div class="sm:order-first w-full sm:w-7/12">
+    <div class="flex mt-6 sm:mb-2">
       <span class="text-red-highlight tracking-widest text-sm uppercase">
         Experience
       </span>
     </div>
-    <div v-for="(item, i) in experience" :key="i" class="mb-10">
+    <div v-for="(item, i) in experience" :key="i" class="mb-4 sm:mb-10">
       <div class="flex my-1">
         <span class="text-md font-bold">
           {{ item.title }}
